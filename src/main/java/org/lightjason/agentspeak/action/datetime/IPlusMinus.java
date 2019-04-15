@@ -80,7 +80,7 @@ public abstract class IPlusMinus extends IBaseAction
                     .map( CRawTerm::of )
                     .forEach( p_return::add );
 
-                return Stream.of();
+                return Stream.empty();
 
 
             case "plus":
@@ -93,7 +93,7 @@ public abstract class IPlusMinus extends IBaseAction
                     .map( CRawTerm::of )
                     .forEach( p_return::add );
 
-                return Stream.of();
+                return Stream.empty();
 
 
             default:

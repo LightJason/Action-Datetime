@@ -60,7 +60,7 @@ public abstract class IDateTime extends IBaseAction
                 org.lightjason.agentspeak.common.CCommon.languagestring( IDateTime.class, "argumenterror" )
             );
 
-        return Stream.of();
+        return Stream.empty();
     }
 
     /**
